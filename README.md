@@ -41,7 +41,9 @@
 Компиляция
 ==========
 
-# gcc seminfo.c -o seminfo
-# ./seminfo
-Usage:
-	seminfo <semaphore_id>
+Для компиляции необходим компилятор gcc:
+
+	# gcc seminfo.c -o seminfo
+	# ./seminfo
+	Usage:
+		seminfo <semaphore_id>
