@@ -91,7 +91,7 @@ int main(int argc, char **argv)
     char *mod_time, *op_time;
 
     if (argc != 2) {
-        printf("Usage:\n\tsem2pid <semaphore_id>\n");
+        printf("Usage:\n\tseminfo <semaphore_id>\n");
 
         return 1;
     }
